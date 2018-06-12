@@ -26,7 +26,7 @@ Code for developing a human following robot using openCV and Raspberry pi.
 
 ## Instructions for Windows
 
-The object detection runs on an external machine to improve the frame rate.
+The object detection runs on an external machine and not the raspberry pi to improve the frame rate.
 
 1. Install Python 2.7
 2. Install Numpy with `<pip install numpy>`
