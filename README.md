@@ -19,8 +19,9 @@ Code for developing a human following robot using openCV and Raspberry pi.
 
 ## Instructions for Raspberry pi
 
-1. Install pigpiod with `<pip install pigpiod>`
-2. Enable the hd camera (how to do this will depend on the operating system on the raspberry pi)
+1. Install Python 2.7
+2. Install pigpiod with `<pip install pigpiod>`
+3. Enable the hd camera (how to do this will depend on the operating system on the raspberry pi)
 
 
 ## Instructions for Windows
