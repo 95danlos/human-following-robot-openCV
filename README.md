@@ -17,7 +17,7 @@ Code for developing a human following robot using openCV and Raspberry pi.
 * OpenCV 3.4
 
 
-## Instruction
+## Instructions
 
 1. Install Python 2.7
 2. Install Numpy with `<pip install numpy>`
