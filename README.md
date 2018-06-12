@@ -17,7 +17,15 @@ Code for developing a human following robot using openCV and Raspberry pi.
 * OpenCV 3.4
 
 
-## Instructions
+## Instructions for Raspberry pi
+
+1. Install pigpiod with `<pip install pigpiod>`
+2. Enable the hd camera (how to do this will depend on the operating system on the raspberry pi)
+
+
+## Instructions for Windows
+
+The object detection runs on an external machine to improve the frame rate.
 
 1. Install Python 2.7
 2. Install Numpy with `<pip install numpy>`
@@ -26,5 +34,5 @@ Code for developing a human following robot using openCV and Raspberry pi.
 5. Change pin numbers in robot.py to match your raspberry pi pins
 6. Change the ip address in follow.py to match your machine's ip address
 7. Deploy robot.py and follow.py on the robot and object_detect.py on your pc
-8. Run object_detect.py and then follow.py
-
+8. Run `<sudo pigpiod>` on the robot
+9. Run object_detect.py and then follow.py
